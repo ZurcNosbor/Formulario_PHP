@@ -1,0 +1,68 @@
+.corpo{
+	background-color: rgb(144, 170, 87);
+}
+
+.cabecalhoh1{
+    text-align: center;
+}
+
+.cabecalhoh2{
+    margin: 3%;
+}
+
+nav{
+    text-align: left;/*Alinhamento do texto*/
+    margin: 2%;
+}
+
+nav ul{
+	list-style: outside; /*Retirar a bolinha do marcador*/
+	line-height: 1;/*Altura da linha*/
+	font-size: 25px;/*Tamanho da fonte*/
+}
+
+nav ul li{
+	display: list-item;/*Um ao lado do outro na linha*/
+	padding: 15px 25px;/*Margem interna*/
+}
+nav ul li a{
+	text-decoration: none;/*Sem sublinhado*/
+	padding: 15px 25px;/*Margem interna superior e inferior*/
+	color: #030e05;/*Cor branca*/
+	text-transform: uppercase;/*Tudo com letra maiuscula*/
+	font-weight: bold;/*Negrito*/	
+}
+nav ul li a:hover{
+	background-color: rgb(3, 2, 2);
+	border-radius: 20px; 
+	color: rgb(144, 170, 87);
+	text-shadow: 1px 1px 2px black;
+}
+
+#geral{
+    width: 70%;
+	margin: auto auto;
+	border: 2px solid rgb(8, 8, 8);
+	border-radius: 20px; /*Arredondamento dos cantos*/
+	background-color: rgb(199, 224, 147);
+}
+
+.field{
+    width: 70%;
+	margin: auto auto;
+    padding: 25px 25px;
+    line-height: 3;/*Altura da linha*/
+	border: 2px solid rgb(8, 8, 8);
+	border-radius: 20px; /*Arredondamento dos cantos*/
+	background-color: rgb(199, 224, 147);
+}
+
+.voltar{
+    padding: 10px 10px;
+    line-height: 5;/*Altura da linha*/
+    color: white;
+	border-radius: 8px; /*Arredondamento dos cantos*/
+	background-color: rgb(17, 17, 17);
+    text-decoration: none;/*Sem sublinhado*/
+}
+

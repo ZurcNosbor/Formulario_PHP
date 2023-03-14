@@ -1,0 +1,2 @@
+Base de dados: atv_int
+o 'root' aqui do meu msqli tem a senha defifida como 'coco'
